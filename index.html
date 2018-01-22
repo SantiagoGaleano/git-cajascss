@@ -1,0 +1,801 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative One Page Parallax Template">
+    <meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" />
+    <meta name="author" content="Hablando en Señas">
+    
+    <title>Hablando EnSeñas</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/gifs-señas.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/goals.css">
+    <link rel="stylesheet" href="css/responsive-goals.css">
+    <link rel="stylesheet" href="css/responsiveheader.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/responsive-services.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="images/icono/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+
+    <script type="text/javascript" src="js/jquerytextresizer.js"></script>
+    <script type="text/javascript" src="js/textresizer.js">
+    </script>
+
+
+    <script type="text/javascript">
+        var mytextsizer = new fluidtextresizer({
+            controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+            targets: ["body", "nav", "button", "li"], //target elements to resize text within: ["selector1", "selector2", etc]
+            levels: 7, //number of levels users can magnify (or shrink) text
+            persist: "session", //enter "session" or "none"
+            animate: 200 //animation duration of text resize. Enter 0 to disable
+        })
+    </script>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Erica+One);
+        .aprende {
+            cursor: default;
+            position: absolute;
+            top: 65%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+            display: block;
+            -webkit-animation: bounce .9000000000000s ease infinite alternate;
+            font-family: 'Erica One', cursive;
+            font-size: 80px;
+            color: rgb(82, 228, 25);
+            text-align: center;
+            line-height: 100px;
+            text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, .6);
+        }
+        /* ANIMATION */
+        
+        @-webkit-keyframes bounce {
+            100% {
+                top: -30px;
+                text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 30px 30px rgba(0, 0, 0, .3);
+            }
+        }
+    </style>
+
+</head>
+<!--/head-->
+
+<body>
+
+    <div class="preloader">
+
+        <div class="preloder-wrap">
+
+            <div class="preloder-inner">
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+                <div class="ball"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--/.preloader-->
+
+    
+    <!-- Header -->
+
+    <header class="header">
+        <div class="brand">
+            <img src="images/logo.png" class="brand-title">
+            <i class="fa fa-bars menu-res" id="menu-res"></i>
+        </div>
+
+        <div class="navbar" id="navbar" id="navbar">
+
+            <div class="nav-item item1" >
+                <a href="#">Bienvenido</a>
+                <img src=  "images/bienvenidos.gif" alt="Bienvenidos">
+            </div>
+            <div class="nav-item item2">
+                <a href="#">¿Quiénes Somos?</a>
+                <img src=  "images/bienvenidos.gif" alt="¿Quiénes Somos?">
+            </div>
+            <div class="nav-item item3">
+                <a href="#">Nuestros Servicios</a>
+                <img src=  "images/bienvenidos.gif" alt="Nuestros Servicios">
+            </div>
+            <div class="nav-item item4">
+                <a href="#">Contáctenos</a>
+                <img src="images/bienvenidos.gif" alt="Contáctenos">
+            </div>
+        </div>
+    </header>
+
+    <!-- Header -->
+
+    <section id="home">
+
+        <div class="home-pattern"></div>
+
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+                <li data-target="#main-carousel" data-slide-to="3"></li>
+
+            </ol>
+            <!--/.carousel-indicators-->
+
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/slider/3.png)">
+
+                    <div class="carousel-caption">
+
+                        <div>
+
+                            <img class="animated bounceInUp" src="images/home/1.png" alt="" />
+
+                            <p></p>
+
+                            <a style="margin-right: auto" class="aprende" href="aprende.html">
+                                <img src="images/aprende.png" alt="Aprende señas jugando">
+                            </a>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="item" style="background-image: url(images/slider/2.png)">
+
+                    <div class="carousel-caption">
+                        <div>
+
+                            <h2 class="heading animated bounceInDown">Comunidad Sorda</h2>
+
+                            <p </p>
+
+                                <a class="btn btn-default slider-btn animated bounceInUp" href="" data-toggle="modal" data-target="#per_sorda">Conoce Más Sobre Comunidad Sorda</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="item" style="background-image: url(images/slider/1.png)">
+
+                    <div class="carousel-caption">
+
+                        <div>
+
+                            <h2 class="heading animated bounceInRight">Aprende HABLANDO ENSEÑAS</h2>
+                            <br>
+
+
+
+                            <a class="btn btn-default slider-btn animated bounceInUp" ref="" data-toggle="modal" data-target="#adicional">Ver más Sobre Aprende Hablando EnSeñas</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Nuevo Imagen -->
+
+                <div class="item" style="background-image: url(images/slider/3.png)">
+
+                    <div class="carousel-caption">
+
+                        <div>
+
+                            <h2 class="heading animated bounceInRight"> CLASIFICADOS </b>
+                            </h2>
+
+                            <p </p>
+
+                                <a class="btn btn-default slider-btn animated bounceInUp" ref="" data-toggle="modal" data-target="#adicionalDos">Ver más Sobre CLASIFICADOS</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--/.carousel-inner-->
+
+            <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+
+            <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+        </div>
+
+
+
+
+
+        <div class="modal fade" id="per_sorda" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/2GDqZO267II" frameborder="0" allowfullscreen></iframe>
+
+
+
+                        <h2>Información acerca de la Comunidad Sorda</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="modal fade" id="adicional" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                        <h2>Tutorial Básico LSC </h2>
+
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/RzAPgnoFPMM" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Nuevo Video -->
+
+
+        <div class="modal fade" id="adicionalDos" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                        <h2> Participe de los Cursos Gratis de Lengua de Señas y Braille realizados por Hablando EnSeñas y Biblored </h2>
+
+                        <iframe width="100%" height="360" src=" https://www.youtube.com/embed/e_IGNHSglos" frameborder="0" allowfullscreen></iframe>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="about-us">
+
+        <div class="container">
+
+            <div class="text-center">
+
+                <div class="col-sm-8 col-sm-offset-2">
+
+                    <h2 class="title-one" id="numero1" class="tooltip1" href="gifs-señas.css"><span><img src="gifs/quienessomos.gif"></span>Quiénes Somos</h2>
+
+                </div>
+
+            </div>
+
+            <div class="about-us">
+
+                <div class="row">
+
+                    <div class="col-ms-6">
+
+                        <div class="opctions" style="width: 60%;">
+
+                            <ul class="nav nav-tabs">
+
+                                <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-chain-broken"></i>Nosotros</a></li>
+
+                                <li><a href="#hablando" data-toggle="tab"><i class="fa fa-th-large"></i>Hablando EnSeñas</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-content" style="position:relative;">
+
+                            <div class="tab-pane fade in active" id="about">
+
+                                <div class="media">
+
+
+
+
+
+                                    <div style="width: 100%; display:flex; flex-direction: row; height: auto; align-items: center">
+                                        <div class="media-body" style="width: 50% "> <iframe width="100%" height="360" src="https://www.youtube.com/embed/A9O__GaiuaU" frameborder="0" allowfullscreen></iframe> </div>
+                                        <p style="width: 50% ; font-size:20px; margin-left: 20px  ">Somos una empresa comprometida con la inclusión social e igualdad de condiciones, que respeta las diferencias, cuyo enfoque principal es la Comunidad Sorda y su acceso a la comunicación e información.</p>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="hablando">
+
+                                <div class="media">
+
+
+
+
+
+                                    <iframe width="60%" height="360" src="https://www.youtube.com/embed/qi11rksW0Gw" frameborder="0" allowfullscreen></iframe>
+
+
+
+                                    <div class="media-body">
+
+                                        <p style="position:absolute; font-size:15px; left:62%; margin-right:2%; top:20%;">Hablando EnSeñas SAS tiene tres condiciones comunicativas, cuando usted habla a través de su voz, cuando comunica a través de sus manos y cuando usted aprende a través de la enseñanza de la Lengua de Señas Colombiana.
+                                            Estas condiciones dan como resultado el poder brindar una comunicación efectiva.</p>
+
+                                        <p style="position:absolute; font-size:15px; left:62%; margin-right:2%; top:55%;">Nuestro grupo de trabajo se encuentra conformado por un equipo interdisciplinario altamente calificado, integrado por personas sordas y oyentes quienes ponen a su disposición todo su talento y experticia.</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+    </section>
+
+
+    <div class="goals-container">
+        <section class="goals">
+            
+            <h2 class="goals-title">Más sobre Hablando Enseñas</h2>
+
+            <div class="cont-goals">
+               
+                <div class="goal">
+    
+                     <div class="goal-gift">
+                        <img src="images/bienvenidos.gif" alt="">
+                    </div>
+                    <h3 class="goal-title">Visión</h3>
+                    <p>Hablando EnSeñas SAS será en el 2020 una entidad líder reconocida como gestora de comunicación accesible, activista de los derechos de las personas con discapacidad enfocando su mirada a la Comunidad Sorda y como promotora de alianzas estratégicas en el territorio nacional e internacional, con sentido social.</p>
+                    <a href="#" class="link-modal">Lee mas acerca de Visión</a>
+                </div>
+               
+                <div class="goal">
+                    
+                    <div class="goal-gift">
+                        <img src="images/bienvenidos.gif" alt="">
+                    </div>
+                    <h3 class="goal-title">Misión</h3>
+                    <p>Contribuir a una sociedad inclusiva eliminando barreras de comunicación a través de la producción audiovisual accesible, y establecer programas, planes y proyectos que incidan en el restablecimiento de los derechos de las Personas Sordas del país.</p>
+                    <a href="#" class="link-modal">Lee mas acerca de Misión</a>
+                </div>
+                             
+                <div class="goal">
+    
+                     <div class="goal-gift">
+                        <img src="images/bienvenidos.gif" alt="">
+                    </div>
+                    <h3 class="goal-title">Objetivos</h3>
+                    <p>1. Ejecutar programas, planes y proyectos accesibles.</p>
+                    <p>2. Capacitar a empresas naturales y jurídicas a través de la enseñanza de la Lengua de Señas Colombiana.</p>
+                    <p>3. Promover la enseñanza del español como segunda lengua de la persona sorda.</p>
+                    <a href="#" class="link-modal">Lee mas acerca de Objetivos</a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="modal fade" id="mision" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/oqmO9HNlH8s" frameborder="0" allowfullscreen></iframe>
+
+                    <h3 align="center">Misión</h3>
+
+                    <h4 align="center"> Contribuir a una sociedad inclusiva eliminando barreras de comunicación a través de la producción audiovisual accesible, y establecer programas, planes y proyectos que incidan en el restablecimiento de los derechos de las Personas
+                        Sordas del país.</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="vision" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/4SkriwPX688" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+                    <h3 align="center">Visión</h3>
+
+                    <h4 align="center"> Hablando EnSeñas SAS será en el 2020 una entidad líder reconocida como gestora de comunicación sible, activista de los derechos de las personas con discapacidad enfocando su mirada a la Comunidad Sorda y como promotora de alianzas
+                        estratégicas en el territorio nacional e internacional, con sentido social.</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="objetivos" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+
+                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/g2_waMp4Eas" frameborder="0" allowfullscreen></iframe>
+
+
+
+                    <h3 align="center">Objetivos</h3>
+                    <h4 align="center"> 1. Ejecutar programas, planes y proyectos accesibles.</h4>
+
+                    <h4 align="center"> 2. Capacitar a empresas naturales y jurídicas a través de la enseñanza de la Lengua de Señas Colombiana.</h4>
+
+                    <h4 align="center"> 3. Promover la enseñanza del español como segunda lengua de la persona sorda. </h4>
+
+                    <h4 align="center"> 4. Proveer intérpretes de Lengua de Señas Colombiana.</h4>
+
+                    <h4 align="center"> 5. Establecer Alianzas Estratégicas con entidades públicas y privadas que incidan en el mejoramiento continuo de las personas con discapacidad auditiva.</h4>
+
+                    <h4 align="center"> 6. Incidir territorialmente con programas enfocados a condiciones de equidad y comunicación accesible para las Personas Sordas.</h4>
+
+                    <h4 align="center"> 7. Capacitar a la Persona Sorda con el fin de coadyuvar a su inclusión laboral.</h4>
+
+                    <h4 align="center"> 8. Asesorar a los empresarios promoviendo la inclusión laboral de la Persona Sorda.</h4>
+
+                    <h4 align="center"> 9. Mejorar la oferta educativa en las Instituciones que tienen propuesta de inclusión para las Personas Sordas.</h4>
+
+                    <h4 align="center"> 10. Diseñar espacios accesibles para las personas con discapacidad.</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="services-container">
+        <section class="services">
+            
+            <h2 class="services-title">Nuestros Servicios</h2>
+
+            <div class="cont-services">
+                
+                <div class="service">
+    
+                     <div class="service-gift">
+                        <img src="images/blog/solemp.jpg" alt="">
+                    </div>
+                    
+                    <h3 class="service-title">Soluciones Empresariales</h3>
+                    <p>Capacitación del talento humano dedicado a la atención del usuario y/o servicio al ciudadano e inclusión laboral de personas en condición de discapacidad.</p>
+                    <ul>
+                        <li>Charlas de sensibilización y protocolo para la atención de poblaciones en condición de discapacidad.</li>
+                        <br>
+                        <li>Asesoría para la inclusión laboral.</li>
+                    </ul>
+
+                    <a href="#" class="link-modal">Lee mas acerca de Soluciones Empresariales</a>
+                </div>
+
+                <div class="service">
+                    
+                    <div class="service-gift">
+                        <img src="images/blog/capacitacion.jpg" alt="">
+                    </div>
+                   
+                    <h3 class="service-title">Capacitación</h3>
+                    <p>Cursos de lengua de señas colombiana LSC con instructores sordos, objetivos:</p>
+
+                    <ul>
+                        <li>Brindar herramientas básicas a los asistentes que permitan acceso a la comunicación con la persona sorda.</li>
+                        <br>
+                        <li>Conseguir que el asistente maneje las expresiones viso gestuales y manejo espacial, aspectos fundamentales para la comunicación con el sordo.</li>
+                    </ul>
+
+                    <a href="#" class="link-modal">Lee mas acerca de Capacitación</a>
+                </div>
+                            
+                <div class="service">
+    
+                     <div class="service-gift">
+                        <img src="images/blog/interpretacion.jpg" alt="">
+                    </div>
+                 
+                    <h3 class="service-title">Suministro de Intérpretes</h3>
+                    <p>Entendiendo la importancia de la comunicación efectiva de sus ideas o productos, realizamos la provisión de intérpretes para los diferentes eventos que realice su organización; nuestro equipo humano es altamente capacitado con gran experiencia y reconocimiento ante la comunidad sorda, lo que garantiza veracidad y calidad de la información transmitida.</p>
+
+                    <a href="#" class="link-modal">Lee mas acerca de Intérpretes</a>
+                </div>
+                
+                <div class="service">
+    
+                     <div class="service-gift">
+                        <img src="images/blog/accesibilidad.jpg" alt="">
+                    </div>
+                    <h3 class="service-title">Ajustes Razonables</h3>
+                    <p>En cumplimiento de lo ordenado en la ley 1618 de 27 de febrero de 2013 que establece “las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad”, nuestra empresa contribuye en la identificación y realización de los ajustes razonables necesarios, que permitan el goce efectivo sin limitaciones de estos derechos por parte de la población discapacitada.</p>
+                    <a href="#" class="link-modal">Lee mas acerca de Visión</a>
+                </div>
+
+                <div class="service">
+                    
+                    <div class="service-gift">
+                        <img src="images/blog/audiovisuales.jpg" alt="">
+                    </div>
+                    <h3 class="service-title">Contenidos Accesibles</h3>
+                    <p>Adaptación de piezas audiovisuales existente convirtiendo su contenido en accesible mediante la Implementación de Lengua de señas colombiana, voz off, subtitulación y audio descripción.</p>
+                    <a href="#" class="link-modal">Lee mas acerca de Ajustes Razonables</a>
+                </div>
+                            
+                <div class="service">
+    
+                     <div class="service-gift">
+                        <img src="images/blog/solar.jpg" alt="">
+                    </div>
+                    <h3 class="service-title">Soluciones Arquitectónicas</h3>
+                  
+                    <p>Adaptación espacial de las diferentes áreas y espacios físicos de su organización, implementando circulaciones, rampas, baños, estaciones de trabajo y mobiliarios para usuarios en condición de discapacidad.</p>
+                    
+                    <ul>
+                        <li>Suministro y Adecuación de mobiliarios.</li>
+                        <br>
+                        <li>Otros Servicios</li>
+                    </ul>
+                    
+                    <a href="#" class="link-modal">Lee mas acerca de Soluciones Arquetectónicas</a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="row text-center clearfix">
+
+                <div class="col-sm-8 col-sm-offset-2">
+
+                    <div class="contact-heading">
+
+                        <h2 class="title-one" id="numero1" class="tooltip1" href="gifs-señas.css"><span><img src="gifs/contactenos.gif"></span>Contáctenos</h2>
+
+                        <p></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="contact-details">
+
+                <div class="pattern"></div>
+
+                <div class="row text-center clearfix">
+
+                    <div class="col-sm-6">
+
+                        <div class="contact-address"><address><p><span>Hablando </span>EnSeñas</p><strong>310 2035937 / 316 2558876
+
+                                            <br> <a target="_blank" href="https://outlook.live.com">info@hablandoensenas.com</a><br> Síguenos en:</strong><br><small>
+
+                                            <div class="social-icons">
+
+													<a target="_blank" href="https://www.facebook.com/Hablandoense%C3%B1as-172342229869306/" ><i class="fa fa-facebook"></i></a>
+
+                                                    <a target="_blank" href="https://www.instagram.com/hablandoensenassas/" ><i class="fa fa-instagram"></i></a>
+
+													<a target="_blank" href="https://www.youtube.com/channel/UCLQs514YnbE17Ej0SBMunRA"><i class="fa fa-youtube-play"></i></a>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<div class="col-sm-6"> 
+
+											<div id="contact-form-section">
+
+												<div class="status alert alert-success" style="display: none"></div>
+
+												<form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php">
+
+													<div class="form-group">
+
+														<input type="text" name="name" class="form-control name-field" required placeholder="Ingresa tu nombre"></div>
+
+														<div class="form-group">
+
+															<input type="email" name="email" class="form-control mail-field" required placeholder="Ingresa tu Correo Electrónico">
+
+														</div> 
+
+														<div class="form-group">
+
+															<textarea name="message" id="message" required class="form-control" rows="8" placeholder="Déjanos un mensaje"></textarea>
+
+														</div> 
+
+														<div class="form-group">
+
+															<button type="submit" class="btn btn-primary">Enviar</button>
+
+														</div>
+
+                                                    </form> 
+                                                    
+                                                    
+
+												</div>
+
+                                            </div>
+                                            
+
+										</div>
+
+                                    </div>
+                                    
+                                </div> 
+                            <div style="text-align: center; margin-top: 5%">
+                               
+                                
+                                <p style="font-size: 18px">Número de visitas:   <img style="margin-left: 10px" src="https://counter2.freecounter.ovh/private/contadorvisitasgratis.php?c=2rhyyccj99qxqms9y1d1r2763g2pswjd" border="0" title="contador de visitas" alt="contador de visitas">
+                                </p>
+                                
+                            </div>
+                                
+    
+							</section> <!--/#contact--> 
+                          
+
+	<footer id="footer"> 
+
+		<div class="container"> 
+
+			<div class="text-center"> 
+				<p>Copyright © Hablando EnSeñas 2017 -  | All Rights Reserved</p> 
+			</div> 
+		</div> 
+	</footer> <!--/#footer--> 
+
+
+
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script> 
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script> 
+    <script src="js/responsiveheader.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+
+</html>

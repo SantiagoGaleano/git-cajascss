@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: Arial;
+}
+
+img{
+    vertical-align: top;
+}
+
+/* ===================== */
+
+.services-container{
+    width: 100%;
+}
+
+.services{
+    width: 90%;
+    margin: auto;
+}
+
+.services .services-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(38, 94, 197);
+    padding-bottom: 4px;
+    border-bottom: 2px dotted rgba(38, 94, 197, .5)
+}
+
+.services .cont-services{
+    width: 100%;
+    padding: 20px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services .cont-services .service{
+    width: 30%;
+    box-shadow: 0px 0px 10px #aaa;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+    .service .service-gift{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .service .service-gift img{
+        width: 100%;
+        filter: opacity(.8);
+        transition: all .3s ease;
+    }
+    
+    
+    .services .cont-services .service:hover > .service-gift img{
+        filter: opacity(1)
+    }
+
+    .service .service-title{
+        width: 100%;
+        text-align: left;
+        margin: 15px 0;
+        font-size: 1.9em;
+        color: rgb(38, 94, 197);
+        border-left: 10px solid rgb(38, 94, 197);
+        padding-left: 10px;
+        transition: all .3s ease;
+    }
+
+    .service p{
+        color: rgb(41, 41, 41);
+        padding: 15px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+
+    .service ul{
+        padding: 30px;
+    }
+
+    .service .link-modal{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.05em;
+        font-weight: bold;
+        padding: 20px 0;
+
+        text-decoration: none;
+        color: rgb(38, 94, 197);
+
+        transition: all .3s ease;
+    }
+
+    .services .cont-services .service:hover > .link-modal{
+        background: rgb(38, 94, 197);
+        color: #fff;
+    }

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+img{
+    vertical-align: top;
+}
+
+.goals-container{
+    width: 100%;
+    background: url('../images/services/service-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.goals{
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+}
+
+.goals .goals-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.goals .cont-goals{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.goals .cont-goals .goal{
+    width: 30%;
+    background: rgba(0, 0, 0, .5);
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+.goals .cont-goals .goal:hover{
+    transform: scale(1.03);
+}
+
+    .goal .goal-gift {
+        width: 50%;
+        margin: auto;
+        padding: 15px 0;
+    }
+
+    .goal .goal-gift img{
+        width: 100%;
+    }
+
+    .goal .goal-title{
+        font-size: 1.9em;
+        color: #fff;
+        text-align: center;
+        margin: 20px 0;
+        padding-bottom: 4px;
+        border-bottom: 1.5px dashed #ddd
+    }
+
+    .goal p{
+        color: #fff;
+        padding: 0 15px;
+        line-height: 22px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .goal .link-modal{
+        display: block;
+        margin-top: 30px;
+        padding: 15px;
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        background: rgb(29, 120, 194);
+        transition: all .3s ease;
+        border: 2px solid rgb(29, 120, 194);
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    .goal .link-modal:hover{
+        border-color: #fff;
+        color: rgb(29, 120, 194);
+        background: #fff;
+    }

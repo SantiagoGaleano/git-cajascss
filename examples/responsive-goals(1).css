@@ -1,0 +1,38 @@
+@media screen and (max-width: 930px){
+
+    .goals .cont-goals .goal{
+        width: 40%;
+        margin-bottom: 50px;
+    }
+
+    .goal .goal-gift{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 769px){
+
+    .goals .cont-goals .goal{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .goal .goal-gift{
+        width: 20%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .goals .cont-goals .goal{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .goal .goal-gift{
+        width: 50%;
+        margin: auto;
+    }
+}
